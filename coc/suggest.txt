@@ -1,0 +1,14 @@
+star|startup|around|
+exe|exec|around|
+bind|bindsym|around|
+exit|exit|jedi|f
+sys|sys|jedi|M
+sys|sys|jedi|M
+i|import|jedi|k
+exi|_exit|jedi|M
+print|print|jedi|f
+__name|__name__|jedi|v
+if|if|jedi|k
+o|os|jedi|M
+impo|import|jedi|k
+"|"\$schema": $1|json|m

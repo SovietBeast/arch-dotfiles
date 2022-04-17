@@ -1,0 +1,7 @@
+add_newline = true
+[dir]
+SPACESHIP_DIR_LOCK_SYMBOL = "  "
+[character]
+success_symbol = "[➜](bold green)"
+[package]
+disabled = true
