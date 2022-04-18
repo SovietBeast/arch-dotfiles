@@ -38,6 +38,7 @@ cyan        = #83C092
 white       = #D3C6AA
 
 [bar/main]
+;monitor = ${env:MONITOR}
 background = ${colors.background}
 wm-restack = i3
 override-redirect = true
@@ -51,7 +52,7 @@ radius=8
 
 [bar/left]
 inherit = bar/main
-;monitor = ${env:MONITOR:HDMI-1}
+;monitor = ${env:MONITOR}
 width = 13%
 height = 26
 offset-x = 1%
@@ -67,8 +68,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Fira Code Medium:pixelsize=12;2
-font-1 = Material Design Icons:pixelsize=11:style:Regular;1
+font-0 = "Iosevka:pixelsize=14:style:Bold;3"
+font-1 = Fira Code Medium:pixelsize=13;2
+font-2 = Material Design Icons:pixelsize=11:style:Regular;1
 ;font-2 = FontAwesome:pixelsize=11;1
 ;font-3 = unifont:fontformat=truetype:size=8:antialias=true;0
 ;font-4 = siji:pixelsize=14;1
@@ -77,6 +79,7 @@ modules-center = date
 
 
 [bar/title]
+;monitor = ${env:MONITOR}
 inherit = bar/main
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 22%
@@ -95,8 +98,9 @@ module-margin-left = 1
 module-margin-right = 1
 enable-ipc = true
 
-font-0 = FiraCode Nerd Font:pixelsize=12;2
-font-1 = Material Design Icons:pixelsize=11:style:Regular;1
+font-0 = "Iosevka:pixelsize=14:style:Bold;3"
+font-1 = FiraCode Nerd Font:pixelsize=12:style:Bold;2
+font-2 = Material Design Icons:pixelsize=11:style:Regular;1
 ;font-2 = FontAwesome:pixelsize=11;1
 ;font-3 = unifont:fontformat=truetype:size=8:antialias=true;0
 ;font-4 = siji:pixelsize=14;1
@@ -105,14 +109,17 @@ modules-center = spotify spotify-prev spotify-play-pause spotify-next
 ;sep xwindow
 
 [bar/window]
+;monitor = ${env:MONITOR}
 inherit = bar/left
 offset-y = 97%
+font-0 = "Iosevka:pixelsize=14:style:Bold;3"
 modules-center = xwindow
 
 
 
 
 [bar/mid]
+;monitor = ${env:MONITOR}
 inherit = bar/main
 width = 17%
 height = 26
@@ -128,15 +135,17 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Fira Code Medium:pixelsize=12;2
-font-1 = unifont:fontformat=truetype:size=8:antialias=true;0
-font-2 = siji:pixelsize=14;1
-font-3 = FontAwesome:pixelsize=11;1
+font-0 = "Iosevka:pixelsize=14:style:Bold;3"
+font-1 = Fira Code Medium:pixelsize=12;2
+font-2 = unifont:fontformat=truetype:size=8:antialias=true;0
+font-3 = siji:pixelsize=14;1
+font-4 = FontAwesome:pixelsize=11;1
 
 modules-center = i3
 
 
 [bar/right]
+;monitor = ${env:MONITOR}
 inherit = bar/main
 
 width = 30%
@@ -151,16 +160,18 @@ padding-left = 0
 padding-right = 1
 
 
-font-0 = FiraCode Nerd Font:pixelsize=12;2
-font-1 = Material Icons:pixelsize=13:style:Regular;2
-font-2 = FontAwesome:pixelsize=11;2
-font-3 = Material Design Icons:pixelsize=13:style:Regular;2
+font-0 = "Iosevka:pixelsize=12:style:Bold;3"
+font-1 = FiraCode Nerd Font:pixelsize=12;2
+font-2 = Material Icons:pixelsize=13:style:Regular;2
+font-3 = FontAwesome:pixelsize=11;2
+font-4 = Material Design Icons:pixelsize=13:style:Regular;2
 
 modules-center = cpu sep temperature sep memory sep volume sep wlan 
 
 
 
 [bar/sys]
+;monitor = ${env:MONITOR}
 inherit = bar/main
 
 width = 60%
@@ -175,37 +186,42 @@ padding-left = 0
 padding-right = 1
 enable-ipc = true
 
-font-0 = FiraCode Nerd Font:pixelsize=12;2
-font-1 = Material Icons:pixelsize=13:style:Regular;1
-font-2 = FontAwesome:pixelsize=11;1
-font-3 = Material Design Icons:pixelsize=13:style:Regular;1
+font-0 = "Iosevka:pixelsize=13:style:Bold;3"
+font-1 = FiraCode Nerd Font:pixelsize=12;2
+font-2 = Material Icons:pixelsize=13:style:Regular;1
+font-3 = FontAwesome:pixelsize=11;1
+font-4 = Material Design Icons:pixelsize=13:style:Regular;1
 
 modules-center = cpu-freq sep processes sep filesystem sep picom-toggle sep dunst sep battery
 ;modules-center = cpu-freq sep processes sep filesystem sep picom-toggle sep dunst sep removable-disks sep battery
 
 [bar/right2]
+;monitor = ${env:MONITOR}
 inherit = bar/right
-monitor = DP-3
+monitor = HDMI1
 
 [bar/mid2]
 inherit = bar/mid
-monitor = DP-3
+;monitor = ${env:MONITOR}
+monitor = HDMI1
 
 [bar/left2]
 inherit = bar/left
-monitor = DP-3
+;monitor = ${env:MONITOR}
+monitor = HDMI1
 
 [bar/title2]
 inherit = bar/title
-monitor = DP-3
+;monitor = ${env:MONITOR}
+monitor = HDMI1
 
 [bar/window2]
 inherit = bar/window
-monitor = DP-3
+monitor = HDMI1
 
 [bar/sys2]
 inherit = bar/sys
-monitor = DP-3
+monitor = HDMI1
 
 
 [module/sysinfo]
@@ -524,12 +540,12 @@ adapter = AC0
 full-at = 98
 time-fomrat = %H:%M
 format-charging = <animation-charging>  <label-charging>
-format-discharging = <animation-discharging>  <label-discharging>
+format-discharging = <ramp-capacity>  <label-discharging>
 ;label-charging = Charging %precentage%%
 ;label-discharging = Discharging %percentage%%
 label-full = %{F#FFB700}%{F-}  %percentage%%
 ramp-capacity-0 = %{F#D40000}%{F-}
-ramp-capacity-1 = %{F#FFB700}%{F-}
+ramp-capacity-1 = %{F#D40000}%{F-}
 ramp-capacity-2 = %{F#FFB700}%{F-}
 ramp-capacity-3 = %{F#FFB700}%{F-}
 ramp-capacity-4 = %{F#FFB700}%{F-}
@@ -604,10 +620,11 @@ animation-discharging-4 = %{F#D40000}%{F-}
 ;animation-discharging-framerate = 750
 
 [module/temperature]
-type = internal/temperature
-thermal-zone = 0
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon6/temp2_input
-warn-temperature = 80
+type = custom/script
+;thermal-zone = 0
+exec = ~/.config/polybar/scripts/temp.sh
+;hwmon-path = /sys/devices/platform/coretemp.0/hwmon/*/temp2_input
+;warn-temperature = 40.0°C
 
 format-prefix = " "
 format-warn-prefix = " "
@@ -617,13 +634,13 @@ format =  <label>
 format-padding = 1
 format-warn = <label-warn>
 
-label = %temperature-c%
-label-warn = %temperature-c%
+;label = %temperature-c%
+;label-warn = %temperature-c%
 label-warn-foreground = ${colors.red}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/wifi]
