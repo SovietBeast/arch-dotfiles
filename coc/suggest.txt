@@ -1,3 +1,8 @@
+hi|highlighting|around|
+sy|syntax|around|
+i3|i3lock|around|
+st|startup|around|
+exec|exec_always|around|
 |bin|file|
 te|temp.sh|file|
 sc|scripts|file|

@@ -33,13 +33,14 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id xbindkeys
 #exec_always --no-startup-id /home/moonraccoon/.config/i3/restart.sh
 #exec_always --no-startup-id noisetorch -u
-
+exec_always --no-startup-id xss-lock i3lock-fancy
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 #exec --no-startup-id gnome-keyring-daemon --start &
 #exec_always --no-startup-id noisetorch -s "alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback" -i
 #exec_always --no-startup-id betterlockscreen -w blur
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
 #exec_always --no-startup-id easyeffects --gapplication-service
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/wallpaper.png
 #exec_always --no-startup-id xrandr --output DP-3 --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal 
@@ -223,6 +224,9 @@ gaps top 30
 gaps bottom 30
 
 for_window [class="Arandr"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Blueman-manager"] floating enable
+
 
 # make floating windows smaller
 floating_maximum_size 1920 x 1080

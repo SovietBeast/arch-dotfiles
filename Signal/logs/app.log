@@ -1,0 +1,61 @@
+{"level":30,"time":"2022-05-05T22:00:11.880Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:00:36.731Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:01:07.041Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:01:36.731Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:02:02.184Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:02:35.960Z","pid":526914,"hostname":"deathstar","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:02:36.000Z","pid":526914,"hostname":"deathstar","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:02:36.732Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:02:57.321Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:03:36.734Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:03:52.462Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:04:36.734Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:04:47.594Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:05:36.734Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:05:42.734Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:06:36.735Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:06:37.857Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:07:33.011Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:07:35.960Z","pid":526914,"hostname":"deathstar","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:07:36.008Z","pid":526914,"hostname":"deathstar","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:07:36.735Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:08:28.168Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:08:36.735Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:09:23.324Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:09:36.736Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:10:18.477Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:10:36.736Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:11:13.634Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:11:36.737Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:12:08.763Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:12:35.960Z","pid":526914,"hostname":"deathstar","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:12:35.988Z","pid":526914,"hostname":"deathstar","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:12:36.737Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:13:03.902Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:13:36.737Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:13:59.061Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:14:36.738Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:14:54.188Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:15:36.738Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:15:49.311Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:16:36.739Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:16:44.427Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:17:35.961Z","pid":526914,"hostname":"deathstar","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:17:36.004Z","pid":526914,"hostname":"deathstar","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:17:36.739Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:17:39.591Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:18:34.744Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:18:36.741Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:19:29.901Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:19:36.740Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:20:25.058Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:20:36.741Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:21:20.214Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:21:36.741Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:22:15.391Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:22:35.960Z","pid":526914,"hostname":"deathstar","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:22:36.001Z","pid":526914,"hostname":"deathstar","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2022-05-05T22:22:36.742Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:23:10.535Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
+{"level":30,"time":"2022-05-05T22:23:36.742Z","pid":526914,"hostname":"deathstar","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2022-05-05T22:24:05.678Z","pid":526914,"hostname":"deathstar","msg":"WebSocketResources: Sending a keepalive message"}
