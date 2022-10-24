@@ -1,0 +1,100 @@
+23:54:24.638482 360PassiveDNS: check callback failed for the configuration
+23:54:24.638489 ZoomEye: check callback failed for the configuration
+23:54:24.638501 AlienVault: API key data was not provided
+23:54:24.638519 BinaryEdge: check callback failed for the configuration
+23:54:24.638621 DNSlytics: check callback failed for the configuration
+23:54:24.638621 GitLab: check callback failed for the configuration
+23:54:24.638646 WhoisXMLAPI: check callback failed for the configuration
+23:54:24.638666 Detectify: check callback failed for the configuration
+23:54:24.638524 Ahrefs: check callback failed for the configuration
+23:54:24.638549 Chaos: check callback failed for the configuration
+23:54:24.638551 Cloudflare: API key data was not provided
+23:54:24.638561 FOFA: Email address or API key data was not provided
+23:54:24.638566 Spyse: check callback failed for the configuration
+23:54:24.638574 Hunter: check callback failed for the configuration
+23:54:24.638577 FacebookCT: check callback failed for the configuration
+23:54:24.638586 PassiveTotal: check callback failed for the configuration
+23:54:24.638588 NetworksDB: API key data was not provided
+23:54:24.638597 C99: check callback failed for the configuration
+23:54:24.638600 PentestTools: check callback failed for the configuration
+23:54:24.638604 DNSRepo: check callback failed for the configuration
+23:54:24.638604 Twitter: API key data was not provided
+23:54:24.638803 Twitter: check callback failed for the configuration
+23:54:24.638607 IPdata: check callback failed for the configuration
+23:54:24.638609 GitHub: check callback failed for the configuration
+23:54:24.638609 CIRCL: check callback failed for the configuration
+23:54:24.638614 Quake: check callback failed for the configuration
+23:54:24.638623 IPinfo: check callback failed for the configuration
+23:54:24.638528 LeakIX: check callback failed for the configuration
+23:54:24.638635 Umbrella: API key data was not provided
+23:54:24.638867 Umbrella: check callback failed for the configuration
+23:54:24.638640 DNSDB: API key data was not provided
+23:54:24.638893 DNSDB: check callback failed for the configuration
+23:54:24.638649 ONYPHE: check callback failed for the configuration
+23:54:24.638654 BuiltWith: check callback failed for the configuration
+23:54:24.638648 VirusTotal: check callback failed for the configuration
+23:54:24.638659 ThreatBook: check callback failed for the configuration
+23:54:24.638655 ZETAlytics: check callback failed for the configuration
+23:54:24.638671 SecurityTrails: check callback failed for the configuration
+23:54:24.638673 IntelX: check callback failed for the configuration
+23:54:24.638681 Shodan: check callback failed for the configuration
+23:54:24.638698 Spamhaus: check callback failed for the configuration
+23:54:25.732612 Querying Bing for cursednova.space subdomains
+23:54:25.732655 Querying RapidDNS for cursednova.space subdomains
+23:54:25.732679 Querying Ask for cursednova.space subdomains
+23:54:25.732711 Querying Arquivo for cursednova.space subdomains
+23:54:25.732724 Querying UKWebArchive for cursednova.space subdomains
+23:54:25.732634 Querying AnubisDB for cursednova.space subdomains
+23:54:25.732760 Querying Sublist3rAPI for cursednova.space subdomains
+23:54:25.732778 Querying IPv4Info for cursednova.space subdomains
+23:54:25.732790 Querying Mnemonic for cursednova.space subdomains
+23:54:25.732803 Querying Yahoo for cursednova.space subdomains
+23:54:25.732808 Querying ThreatMiner for cursednova.space subdomains
+23:54:25.732830 Querying Wayback for cursednova.space subdomains
+23:54:25.732781 Querying HAW for cursednova.space subdomains
+23:54:25.732855 Querying FullHunt for cursednova.space subdomains
+23:54:25.732835 Querying CertSpotter for cursednova.space subdomains
+23:54:25.732875 Querying GoogleCT for cursednova.space subdomains
+23:54:25.732884 Querying Crtsh for cursednova.space subdomains
+23:54:25.732821 Querying SiteDossier for cursednova.space subdomains
+23:54:25.732910 Querying Brute Forcing for cursednova.space subdomains
+23:54:25.732879 Querying DuckDuckGo for cursednova.space subdomains
+23:54:25.732959 Querying Greynoise for cursednova.space subdomains
+23:54:25.732811 Querying Gists for cursednova.space subdomains
+23:54:25.732990 Querying Robtex for cursednova.space subdomains
+23:54:25.732766 Querying Censys for cursednova.space subdomains
+23:54:25.732745 Querying SonarSearch for cursednova.space subdomains
+23:54:25.733038 Querying URLScan for cursednova.space subdomains
+23:54:25.732799 Querying HackerOne for cursednova.space subdomains
+23:54:25.733077 Querying HackerTarget for cursednova.space subdomains
+23:54:25.732821 Querying Riddler for cursednova.space subdomains
+23:54:25.733107 Querying BufferOver for cursednova.space subdomains
+23:54:25.732843 Querying CommonCrawl for cursednova.space subdomains
+23:54:25.733132 Querying HyperStat for cursednova.space subdomains
+23:54:25.732867 Querying Searchcode for cursednova.space subdomains
+23:54:25.733150 Querying N45HT for cursednova.space subdomains
+23:54:25.733165 Querying DNSDumpster for cursednova.space subdomains
+23:54:25.732870 Querying Digitorus for cursednova.space subdomains
+23:54:25.732889 Querying AbuseIPDB for cursednova.space subdomains
+23:54:25.732892 Querying AlienVault for cursednova.space subdomains
+23:54:25.732901 Querying ArchiveIt for cursednova.space subdomains
+23:54:25.732930 Querying PKey for cursednova.space subdomains
+23:54:25.733082 Querying Maltiverse for cursednova.space subdomains
+23:54:25.733089 Querying ThreatCrowd for cursednova.space subdomains
+23:54:25.733098 Querying Baidu for cursednova.space subdomains
+23:54:25.733124 Querying Searx for cursednova.space subdomains
+23:54:26.769958 Maltiverse: vertical request to service failed: Get "https://api.maltiverse.com/search?format=json&from=0&query=hostname.keyword%3A%2A.cursednova.space&size=500&sort=creation_time_desc": dial tcp: lookup api.maltiverse.com: No address associated with hostname
+23:54:26.863902 SonarSearch: vertical request to service failed: 500: 500 Internal Server Error
+23:54:27.029631 FullHunt: vertical request to service failed: 401: 401 Unauthorized
+23:54:28.039770 Digitorus: scrape: 404: 404 Not Found
+23:54:31.266842 GoogleCT: vertical request to service failed: 429: 429 Too Many Requests
+23:54:31.919770 DuckDuckGo: scrape: 403: 403 Forbidden
+23:54:32.354616 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
+23:54:34.590938 N45HT: vertical request to service failed: 404: 404 Not Found
+23:54:35.020889 Searx: scrape: 429: 429 Too Many Requests
+23:54:35.743775 SiteDossier: scrape: 404: 404 No data available
+23:54:36.369967 Yahoo: scrape: Get "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_ab046f42-7613-44f5-83cc-4d643625fe09": context canceled
+23:54:36.370001 ArchiveIt: scrape: Get "https://wayback.archive-it.org/all/timemap/cdx?collapse=urlkey&fl=original&matchType=domain&url=cursednova.space": context canceled
+23:54:36.370064 Ask: scrape: Get "https://www.ask.com/web?l=dir&o=0&page=7&q=site%3Acursednova.space+-www.cursednova.space&qo=pagination": context canceled
+23:54:36.370106 Baidu: scrape: Get "https://www.baidu.com/s?oq=site%3Acursednova.space+-site%3Awww.cursednova.space&pn=10&wd=site%3Acursednova.space+-site%3Awww.cursednova.space": context canceled
+23:54:36.370132 Bing: scrape: Get "https://www.bing.com/search?FORM=PORE&first=21&q=domain%3Acursednova.space+-site%3Awww.cursednova.space": context canceled

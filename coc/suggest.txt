@@ -1,3 +1,17 @@
+as|asdf|around|
+vim|vimtex_view_method|around|
+ul|ultisnips|around|
+coc|coc#pum#next|around|
+coc#pum|coc#pum#visible|around|
+Ta|TAB|around|
+ex|expr|around|
+inorema|inoremap|around|
+do|document|around|
+doc|document|around|
+sdfadsf|sdfadsf|around|
+docu|document|around|
+do|document|around|
+s|space|around|
 hi|highlighting|around|
 sy|syntax|around|
 i3|i3lock|around|
