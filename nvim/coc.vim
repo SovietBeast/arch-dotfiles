@@ -8,19 +8,19 @@ function! CheckBackspace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-"inoremap <silent><expr> <TAB>
-"      \ coc#pum#visible() ? coc#pum#next(1) :
-"      \ CheckBackspace() ? "\<Tab>" :
-"      \ coc#refresh()
-"
-
 inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? coc#_select_confirm() :
-      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
-      \ CheckBackSpace() ? "\<TAB>" :
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 
-let g:coc_snippet_next = '<Tab>'
+
+"inoremap <silent><expr> <TAB>
+"      \ coc#pum#visible() ? coc#pum#next(1) :
+"      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+"      \ CheckBackSpace() ? "\<TAB>" :
+"      \ coc#refresh()
+
+"let g:coc_snippet_next = '<Tab>'
 
 inoremap <expr><TAB> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
@@ -144,5 +144,7 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-imap <C-l> <Plug>(coc-snippets-expand)
+let g:coc_snippet_next = '<c-l>'
+let g:coc_snippet_prev = '<c-k>'
+imap <C-l> <Plug>(coc-snippets-expand-jump)
 vmap <Tab> <Plug>(coc-snippets-select)

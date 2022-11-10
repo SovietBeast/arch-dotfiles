@@ -24,19 +24,18 @@
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
 
-#global !p
-#def math():
-#	return vim.eval('vimtex#syntax#in_mathzone()') == '1'
-#def comment(): 
-#	return vim.eval('vimtex#syntax#in_comment()') == '1'
-#def env(name):
-#	[x,y] = vim.eval("vimtex#env#is_inside('" + name + "')") 
-#	return x != '0' and y != '0'
-#endglobal
+global !p
+def math():
+	if vim.eval('vimtex#syntax#in_mathzone()') == '1':
+		return True
+	return False
+endglobal
+
 
 
 snippet beg "begin{} end{}" b
 \\begin{$1}
+	${2:${VISUAL}}
 	$0
 \\end{$1}
 endsnippet
@@ -57,12 +56,12 @@ endsnippet
 snippet dm "Math" wA
 \[
 ${1:${VISUAL}}
-.\] $0
+\] $0
 endsnippet
 
 #context "math()"
 snippet // "Fraction" iA
-\\frac{$1:${VISUAL}}{$2}$0
+\frac{$1}{$2}$0
 endsnippet
 
 snippet ss "potega" iw
@@ -87,4 +86,12 @@ endsnippet
 
 snippet un "Underline" wi
 \un{${1:${VISUAL}}}$0
+endsnippet
+
+snippet hg "square root" i
+^{2}$0
+endsnippet
+
+snippet dx "pochodna" Aiw
+\partial $0
 endsnippet
